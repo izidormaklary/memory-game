@@ -4,31 +4,68 @@ body {
                 linear-gradient(336deg, rgba(125, 0, 255, 0.8), rgba(0,0,255,0) 70.71%);
     height: 100vh;
     }
+h1 {
+    text-align: center;
+}
 #wrap {
     width: 900px;
     height: 900px;
-    background-color: rgba(72, 61, 139, 0.26);
+    /*background-color: rgba(72, 61, 139, 0.26);*/
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
     grid-gap: 10px 10px;
     padding: 10px;
 
 }
 .cards{
 
-    box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.51);
+    box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.39);
     background-color: antiquewhite;
     border-radius: 15px;
     display: inline-grid;
-    transition: 0.5s;
+    transition: 0.3s;
+    align-content: center;
+    text-align: center;
 
 }
 .cards:hover{
     margin:-10px;
-    box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.51);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.36);
     z-index: 3;
-    width: 0px;
+
+}
+ .schuffle{
+     width: 200px;
+    display: block;
+
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     margin-top: 30px;
+     font-size: 20px;
+     font-weight: bold;
+     margin-right: auto;
+     margin-left: auto;
+}
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 90%;
+    width: 90%;
+}
+.readycards{
+
+    box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.39);
+    background-color: #db7d00;
+    border-radius: 15px;
+    display: inline-grid;
+    transition: 0.3s;
+    align-content: center;
+    text-align: center;
+
 }
