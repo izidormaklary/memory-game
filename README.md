@@ -1,3 +1,5 @@
 ### memory game
+already playable game, but still needs some care. check again later.
 
-work in progress
+https://izidormaklary.github.io/memory-game/
+
