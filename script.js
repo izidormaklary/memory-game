@@ -103,6 +103,10 @@
           console.log( checkedId);
           checkedId =[]
       }
+      if ( pairs.length === 16){
+          alert("Congratulation you won!");
+          startGame();
+      }
 
     }
 function changeclass(id){
