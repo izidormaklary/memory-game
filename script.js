@@ -106,6 +106,7 @@
       if ( pairs.length === 16){
           alert("Congratulation you won!");
           startGame();
+          pairs = [];
       }
 
     }
