@@ -3,13 +3,24 @@ body {
                 linear-gradient(127deg, rgba(238, 137, 226, 0.8), rgba(0,255,0,0) 70.71%),
                 linear-gradient(336deg, rgba(125, 0, 255, 0.8), rgba(0,0,255,0) 70.71%);
     height: 100vh;
+    margin: 0px;
     }
-h1 {
+
+h1 {font-size:  50px;
     text-align: center;
+    font-family: Helvetica;
+    padding-bottom: 30px;
+    color: ghostwhite;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 30px;
+    background-color: rgba(138, 43, 226, 0.33);
+    letter-spacing: 6vw;
 }
-#wrap {
-    width: 900px;
-    height: 900px;
+#wrap {align-content: center;
+    width: 830px;
+    height: 830px;
     /*background-color: rgba(72, 61, 139, 0.26);*/
     border-radius: 10px;
     margin-left: auto;
@@ -39,8 +50,9 @@ h1 {
 
 }
  .schuffle{
+     border-radius: 10px;
      width: 200px;
-    display: block;
+     display: block;
 
      padding: 15px 32px;
      text-align: center;
